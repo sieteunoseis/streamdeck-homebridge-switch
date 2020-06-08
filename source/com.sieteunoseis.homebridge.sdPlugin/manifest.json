@@ -25,11 +25,11 @@
   "Author": "sieteunoseis",
   "CodePath": "plugin/main.html",
   "Description": "Toggle a Homebridge accessory from the Elgato Stream Deck.",
-  "Name": "Homebridge Accessory Switch",
+  "Name": "Homebridge",
   "Icon": "resources/pluginIcon",
   "URL": "https://github.com/sieteunoseis/streamdeck-homebridge-switch",
   "PropertyInspectorPath": "propertyinspector/main_pi.html",
-  "Version": "1.3",
+  "Version": "1.4",
   "Category": "Homebridge",
   "CategoryIcon": "resources/pluginIcon",
   "OS": [
