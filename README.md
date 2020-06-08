@@ -8,7 +8,13 @@ Based on the [streamdeck-homeassistant-webhook plugin](https://github.com/hendri
 
 ## How to use
 
-You will need get AID and IID of the device that you want to control. You can try to browse [http://localhost:port/accessories](http://localhost:port/accessories)
+You will need get AID and IID of the device that you want to control. You can browse to [http://localhost:port/accessories](http://localhost:port/accessories) for a list of device.
+
+Or try to pull them via curl:
+
+```
+curl -X PUT http://192.168.1.1:51896/accessories --header "Content-Type:Application/json" --header "authorization: 123-45-678"
+```
 
 ### Installation
 
@@ -17,6 +23,8 @@ Download the [latest release](https://github.com/sieteunoseis/streamdeck-homebri
 ### Configuring a button
 
 Drag and drop the Switch action from the Homebridge category in the action list to an open button. Click the button to configure it. Fill out the fields.
+
+Note: Switch default state is ON. You may need to press the button twice to get the desired result.
 
 #### Server IP
 
