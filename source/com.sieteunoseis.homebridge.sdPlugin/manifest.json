@@ -1,0 +1,47 @@
+{
+  "Actions": [
+    {
+      "Icon": "resources/pluginIcon",
+      "Name": "CURL Button",
+      "States": [
+        {
+          "Image": "resources/sg_on",
+          "TitleAlignment": "middle",
+          "FontSize": "10",
+          "TitleColor": "black"
+        },
+        {
+          "Image": "resources/sg_off",
+          "TitleAlignment": "middle",
+          "FontSize": "10",
+          "TitleColor": "black"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Call a Homebridge curl command when the button is pressed.",
+      "UUID": "com.sieteunoseis.homebridge.switch.action"
+    } 
+  ],
+  "Author": "sieteunoseis",
+  "CodePath": "plugin/main.html",
+  "Description": "Call Homebridge webhooks from the Elgato Stream Deck.",
+  "Name": "Homebridge Webhook",
+  "Icon": "resources/pluginIcon",
+  "URL": "https://github.com/sieteunoseis/streamdeck-homebridge-switch",
+  "PropertyInspectorPath": "propertyinspector/main_pi.html",
+  "Version": "1.0",
+  "Category": "Homebridge",
+  "CategoryIcon": "resources/categoryIcon",
+  "OS": [
+    {
+      "MinimumVersion" : "10.11",
+      "Platform": "mac"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion" : "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software":  { "MinimumVersion" : "4.1" }
+}

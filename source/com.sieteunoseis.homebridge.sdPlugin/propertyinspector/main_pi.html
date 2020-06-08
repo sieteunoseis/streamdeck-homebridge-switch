@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>com.sieteunoseis.homebridge.switch</title>
+        <link rel="stylesheet" href="sdpi.css">
+        <script src="main_pi.js"></script>
+    </head>
+    <body>
+        <div class="sdpi-wrapper hidden">
+            <div class="sdpi-heading">SETTINGS</div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">Server URL</div>
+                <input class="sdpi-item-value" id="serverurl" value="" onchange="updateSettings()" placeholder="Homebridge Server URL" required>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">Port</div>
+                <input class="sdpi-item-value" id="serverport" value="" onchange="updateSettings()" placeholder="Homebridge Port"" required>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">Authorization</div>
+                <input class="sdpi-item-value" id="authorization" value="" onchange="updateSettings()" placeholder="Pin Code" required>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">AID</div>
+                <input class="sdpi-item-value" id="aid" value="" onchange="updateSettings()" placeholder="AID of Accessory" required>
+            </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">IID</div>
+                <input class="sdpi-item-value" id="iid" value="" onchange="updateSettings()" placeholder="IID of Accessory" required>
+            </div>
+        </div>
+    </body>
+</html>
