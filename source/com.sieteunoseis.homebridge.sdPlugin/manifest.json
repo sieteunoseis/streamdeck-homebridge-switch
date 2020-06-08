@@ -2,7 +2,7 @@
   "Actions": [
     {
       "Icon": "resources/pluginIcon",
-      "Name": "CURL Button",
+      "Name": "Accessory Switch",
       "States": [
         {
           "Image": "resources/sg_on",
@@ -18,20 +18,20 @@
         }
       ],
       "SupportedInMultiActions": false,
-      "Tooltip": "Call a Homebridge curl command when the button is pressed.",
+      "Tooltip": "Toggle a Homebridge accessory when the button is pressed.",
       "UUID": "com.sieteunoseis.homebridge.switch.action"
     } 
   ],
   "Author": "sieteunoseis",
   "CodePath": "plugin/main.html",
-  "Description": "Call Homebridge webhooks from the Elgato Stream Deck.",
-  "Name": "Homebridge Webhook",
+  "Description": "Toggle a Homebridge accessory from the Elgato Stream Deck.",
+  "Name": "Homebridge Accessory Switch",
   "Icon": "resources/pluginIcon",
   "URL": "https://github.com/sieteunoseis/streamdeck-homebridge-switch",
   "PropertyInspectorPath": "propertyinspector/main_pi.html",
-  "Version": "1.0",
+  "Version": "1.2",
   "Category": "Homebridge",
-  "CategoryIcon": "resources/categoryIcon",
+  "CategoryIcon": "resources/pluginIcon",
   "OS": [
     {
       "MinimumVersion" : "10.11",
