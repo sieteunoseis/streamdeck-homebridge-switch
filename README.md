@@ -46,6 +46,8 @@ Example: `123-45-678`
 
 #### AID
 
+You can retrieve a list from http://localhost:51896/accessories
+
 Accessory ID
 
 Example: `1`
